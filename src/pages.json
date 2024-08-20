@@ -1,0 +1,127 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^cn-(.*)": "@/components/cn-$1/index.vue",
+      "^r-(.*)": "rview-ui/r-$1/index.vue",
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/admin-order/index",
+      "style": {
+        "navigationBarTitleText": "订单管理",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/goods-details/index",
+      "style": {
+        "navigationBarTitleText": "详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/cart/index",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
+      "path": "pages/want-to-buy/index",
+      "style": {
+        "navigationBarTitleText": "特产求购",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/aera/index",
+      "style": {
+        "navigationBarTitleText": "地址管理",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/pay/index",
+      "style": {
+        "navigationBarTitleText": "下单",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/success/index",
+      "style": {
+        "navigationBarTitleText": "支付成功",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/order/index",
+      "style": {
+        "navigationBarTitleText": "订单",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/web-content/index",
+      "style": {
+        "navigationBarTitleText": "农品万联",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#EF1224",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home1.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cart1.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine1.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  }
+}
